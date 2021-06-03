@@ -23,4 +23,16 @@ int main(void) {
     }
   }
 }
+float wallis_pi(int x){
+float pi =1.0;
+int i=1;
+for( i;i<x; i++)
+    {
+    float num = 4*i*i;
+    float den = num-1;
+    pi*= num/den;
+ 
+    }
 
+    return pi*= 2.0;
+ }
